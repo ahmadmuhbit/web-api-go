@@ -1,0 +1,54 @@
+Nama Folder : pustaka api
+Design API : https://app.diagrams.net/?src=about#G1_x_etLRg8o0bL4G84btdR3D1hEXwIYFv
+
+-----------------------------------------------------------------------------------
+
+Di dalam folder project :
+go mod init nama-project
+
+Melihat isi : (didalam foldernya)
+cat go.mod
+
+-----------------------------------------------------------------------------------
+
+Third Party Library : gin
+https://github.com/gin-gonic/gin
+
+install Gin package:
+$ go get -u github.com/gin-gonic/gin
+
+Setelah install lihat dengan cara : cat go.mod
+
+main.go
+
+package main
+
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
+
+func main() {
+
+	router := gin.Default()
+	router.GET("/", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"name": "Ahmad Muhbit",
+			"bio":  "Backend Engineer & Digital Marketing",
+		})
+	})
+	router.Run()
+
+}
+
+Terminal : go run main.go
+Postman : localhost:8080
+
+Response :
+{
+    "bio": "Backend Engineer & Digital Marketing",
+    "name": "Ahmad Muhbit"
+}
+
+
