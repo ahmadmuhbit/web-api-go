@@ -53,5 +53,19 @@ Response :
 
 ----------------------------------------------------------------------------------------
 
+HTTP Post & JSON Binding
+Kirim dari Client ke server
 
+Postman 
+Method : POST
+
+Body : raw, json
+
+{
+    "title": "Manusia Harimau",
+    "price": 80000
+}
+
+----------------------------
+HTTP POST & JSON Validation
 
