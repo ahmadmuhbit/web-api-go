@@ -84,5 +84,10 @@ Menampilkan Error Validasi
 go-gorm/gorm
 https://gorm.io/docs/
 
-1:18:46
+---------------------------
 
+Auto Migration
+
+---------------------------
+
+Menyimpan Data
