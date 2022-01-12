@@ -77,3 +77,12 @@ Menampilkan Error Validasi
 
  API Versioning
 
+ ----------------------------
+
+ Koneksi Database
+
+go-gorm/gorm
+https://gorm.io/docs/
+
+1:18:46
+
