@@ -91,3 +91,7 @@ Auto Migration
 ---------------------------
 
 Menyimpan Data
+
+----------------------
+
+Mengambil Data
